@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this, NewNoteActivity::class.java)
             startActivityForResult(intent, MainViewModel.NEW_NOTE_REQUEST_CODE)
+            
         }
 
         val list_notes = findViewById<RecyclerView>(R.id.list_notes)
